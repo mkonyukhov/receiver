@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    bootstrap-servers: ${KAFKA_BROKERS:localhost:9092}
+    in-topic-name: ${IN_TOPIC_NAME:TEST.TOPIC}
+    group-id: ${CONSUMER_GROUP:consumerGroup1}
+    max_poll_records: ${MAX_POLL_RECORDS:100}
+    offset_reset_config: ${OFFSET_RESET_EARLIER:earliest}

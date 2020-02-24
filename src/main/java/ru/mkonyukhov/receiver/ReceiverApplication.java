@@ -1,4 +1,4 @@
-package com.mkonyukhov.receiver;
+package ru.mkonyukhov.receiver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
