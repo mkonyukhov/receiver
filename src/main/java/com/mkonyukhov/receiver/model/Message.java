@@ -1,4 +1,4 @@
-package ru.mkonyukhov.receiver.model;
+package com.mkonyukhov.receiver.model;
 
 public class Message {
     private String name;

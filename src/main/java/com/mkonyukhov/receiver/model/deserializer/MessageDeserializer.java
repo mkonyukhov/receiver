@@ -1,10 +1,10 @@
-package ru.mkonyukhov.receiver.model.deserializer;
+package com.mkonyukhov.receiver.model.deserializer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.kafka.common.serialization.Deserializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import ru.mkonyukhov.receiver.model.Message;
+import com.mkonyukhov.receiver.model.Message;
 
 public class MessageDeserializer implements Deserializer<Message> {
     private static final Logger logger = LoggerFactory.getLogger(MessageDeserializer.class);

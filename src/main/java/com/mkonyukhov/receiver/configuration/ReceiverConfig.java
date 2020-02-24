@@ -1,4 +1,4 @@
-package ru.mkonyukhov.receiver.configuration;
+package com.mkonyukhov.receiver.configuration;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
@@ -11,8 +11,8 @@ import org.springframework.kafka.config.KafkaListenerContainerFactory;
 import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
 import org.springframework.kafka.listener.ConcurrentMessageListenerContainer;
-import ru.mkonyukhov.receiver.model.Message;
-import ru.mkonyukhov.receiver.model.deserializer.MessageDeserializer;
+import com.mkonyukhov.receiver.model.Message;
+import com.mkonyukhov.receiver.model.deserializer.MessageDeserializer;
 
 import java.util.HashMap;
 import java.util.Map;

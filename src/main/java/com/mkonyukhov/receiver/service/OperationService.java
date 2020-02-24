@@ -1,8 +1,8 @@
-package ru.mkonyukhov.receiver.service;
+package com.mkonyukhov.receiver.service;
 
+import com.mkonyukhov.receiver.model.Result;
 import org.springframework.stereotype.Service;
-import ru.mkonyukhov.receiver.model.Message;
-import ru.mkonyukhov.receiver.model.Result;
+import com.mkonyukhov.receiver.model.Message;
 
 @Service
 public class OperationService {

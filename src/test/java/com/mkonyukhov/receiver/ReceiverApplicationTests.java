@@ -1,4 +1,4 @@
-package ru.mkonyukhov.receiver;
+package com.mkonyukhov.receiver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

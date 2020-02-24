@@ -1,11 +1,11 @@
-package ru.mkonyukhov.receiver.model.serializer;
+package com.mkonyukhov.receiver.model.serializer;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.mkonyukhov.receiver.model.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
-import ru.mkonyukhov.receiver.model.Result;
 
 @Component
 public class ResultSerializer {
